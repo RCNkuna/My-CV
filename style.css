@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #f9f9f9;
+      color: #333;
+      padding: 2rem;
+      line-height: 1.6;
+    }
+
+    .cv-container {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      padding: 2rem;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+
+    h1, h2 {
+      color: rgb(109, 67, 0);
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+
+    h2 {
+      margin-top: 2rem;
+      font-size: 1.3rem;
+      border-bottom: none;
+      padding-bottom: 0.3rem;
+    }
+
+    ul {
+      list-style: disc;
+      margin-left: 1.5rem;
+    }
+
+    a {
+      color: rgb(109, 67, 0);
+      text-decoration: none;
+    }
+
+    .cv-container .contact {
+      display: flex;
+      justify-content: flex-start;
+      gap: 1rem; 
+      margin-top: 1rem;
+    }
+
+    .cv-container .contact a {
+      font-size: 1.5rem;
+      color: rgb(109,67,0);
+      text-decoration: none;
+      transition: 0.3s ease;
+    }
+
+    .cv-container .contact a:hover {
+      color: #333;
+    }
+
+    .project {
+      margin-bottom: 1rem;
+    }
+
+    .skills span {
+      display: inline-block;
+      background: #eee;
+      padding: 5px 10px;
+      border-radius: 5px;
+      margin: 5px 5px 0 0;
+    }
+
+  
+.download-btn{
+    width: 15%;
+    height: 4vh;
+    margin: 10px;
+    background-color: rgb(109,67,0);
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 100%;
+    font-weight: 100;
+    border-radius: 4px;
+    transition: 0.1s linear;
+    font-size-adjust: 0.3;
+}
+
+.download-btn:hover{
+    scale: 1.1;
+    color: rgb(109,67,0);
+    border: 1px solid rgb(109,67,0);
+    background-color: transparent;
+    font-weight: 100;
+    box-shadow: 0 0 20px rgb(109,67,0);
+}
